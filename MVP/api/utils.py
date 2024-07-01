@@ -48,11 +48,6 @@ Running the application without any specific video will trigger the demo mode. I
 - Check for videos in the current directory.
 - If no videos are found, it will run a default demo video.
 
-================================================================================
-'''
-
-
-
 def get_correct_path(relative_path):
     try:
         base_path = sys._MEIPASS
